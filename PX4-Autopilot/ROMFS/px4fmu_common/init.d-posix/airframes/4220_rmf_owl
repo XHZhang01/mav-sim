@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# @name RMF-Owl
+#
+# @type Quadrotor x
+# @class Copter
+
+. "${R}etc/init.d/airframes/4120_rmf_owl"
+. "${R}etc/init.d-posix/rc.sim"

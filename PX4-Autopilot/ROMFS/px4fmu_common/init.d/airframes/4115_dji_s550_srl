@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# @name DJI S550 SRL
+#
+# @type Hexarotor x
+# @class Copter
+
+. "${R}etc/init.d/airframes/6001_hexa_x"
+
+param set-default BAT_N_CELLS 4

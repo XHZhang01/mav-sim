@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# @name RMF-Owl
+#
+# @type Quadrotor x
+# @class Copter
+
+. "${R}etc/init.d/airframes/4001_quad_x"

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Override some failsafes when simulating SRL MAVs
+# https://docs.px4.io/main/en/advanced_config/parameter_reference.html
+
+param set COM_DISARM_PRFLT -1
+param set COM_RCL_EXCEPT 4
+param set NAV_DLL_ACT 0
+param set NAV_RCL_ACT 0
